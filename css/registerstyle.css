@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(/photos/1157063.webp); 
+    background-size: cover;
+}
+form{
+   background-color: white;
+    width: 40%;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+h3{
+    padding-top: 30px;
+   margin: 20% 0 10px 0;
+    outline-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:black;
+    
+}
+.Fname, .Sname{
+    width: 41%;
+    height: 40px;
+    border: 1px solid #dddfe2;
+    padding-left: 15px;
+    margin: 10px 0;
+    outline-color: red;  
+    border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);  
+}
+.email{
+    width: 85%;
+    height: 40px;
+    border: 1px solid #dddfe2;
+    padding-left: 15px;
+    margin: 10px 0;
+    outline-color: red;  
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.bday{
+    
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+
+}
+.date{
+font-size: 20px;
+width: 30%;
+height: 40px;
+border: 1px solid #dddfe2;
+padding-left: 15px;
+margin: 10px 0;
+outline-color: red;  
+border-radius: 10px; 
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+select{
+    width: 40%; 
+    height: 45px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    border: 1px solid #dddfe2;
+    outline-color:red ;
+}
+option{
+    font-size: 15px;
+}
+
+.password{
+    width: 83%;
+    height: 50px;
+    border: 1px solid #dddfe2;
+    padding-left: 15px;
+    margin: 10px 0;
+    outline-color: red;  
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    width: 85%;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    margin: 30px 0 15px 0;
+    cursor: pointer;
+  
+}
+p a{
+    color:red;
+   text-decoration: none;
+   }
+   
+   hr{
+    margin: 20px 0;
+   }
+   .selectag{
+position: absolute;
+margin-left: 30px;
+
+   }
+   .selectagtag1{
+    position: absolute;
+    margin: 3px 0 15px 10px;
+   }

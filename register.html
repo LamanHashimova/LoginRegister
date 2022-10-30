@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title >
+    <link rel="stylesheet" href="css/registerstyle.css">
+</head>
+<body>
+    <form>
+        <h3>CREATE ACCOUNT</h3>
+        <input class="Fname" type="text" placeholder="First Name" required>
+        <input class="Sname" type="text" placeholder="Second Name" required>
+        <input class="email" type="email" placeholder="Email" required autocomplete="email">
+     <span class="bday">Brithday:</span>
+        <input class="date" type="date">
+        <select  classs="gender" name="" id="">
+            <option value="">Gender...</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+        </select>
+     <input class="password" type="password" placeholder="Password" required minlength="8">
+     <br>
+     <input class="selectagtag1" id="agreement" type="checkbox">
+     <label class="selectag" for="agreement">I agree all statements</label>
+     <button>SIGN UP</button>
+     <hr>
+     <p>Do you have account? <a href="index.html">Log In </a></p>
+   
+    </form>
+</body>
+</html>
